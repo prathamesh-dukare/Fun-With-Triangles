@@ -1,0 +1,51 @@
+/* css reset  */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    background-color: rgb(61, 162, 202);
+    font-size: 1.3rem;
+}
+body{
+    background-color: rgb(136, 181, 199);
+    /* color: chartreuse; */
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* main styles */
+/* Nav-Section */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style-type: none;
+}
+
+/* Section styles */
+/* 1. Is Triangles */
+/* #is-triangle{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
