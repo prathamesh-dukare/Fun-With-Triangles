@@ -13,7 +13,7 @@ checkButton.addEventListener("click", function checkButtonHandler() {
 })
 
 function checkForAngle(a, b, c) {
-    if (a == 180 || b == 180 || c == 180) {
+    if ((a == 180 || b == 180 || c == 180) || ((a == 90 && b == 90) || (a == 90 && c == 90) || (b == 90 && c == 90))) {
         return false
     } else {
         const sumofAngles = Number(a) + Number(b) + Number(c)

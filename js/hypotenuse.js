@@ -5,6 +5,6 @@ const outputDiv = document.querySelector("#output-Div");
 
 calculateBtn.addEventListener("click",function calculateBtnHandler(){
     console.log(baseOfTriangle,heightOfTriangle,outputDiv)
-    let hypotenuse = Math.sqrt(Number(baseOfTriangle.value)**2 + Number(heightOfTriangle.value)**2)
+    let hypotenuse = Math.sqrt(Number(baseOfTriangle.value)**2 + Number(heightOfTriangle.value)**2).toFixed(3);
     outputDiv.innerText = `Hypotenuse is ${hypotenuse} Unit`;
 })
