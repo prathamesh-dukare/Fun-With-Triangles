@@ -33,6 +33,17 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-size: 1.3em;
+    background-color: #3b4751;
+    padding: 0.5em 0em;
+}
+nav h1{
+    font-size: 1.2em;
+}
+.nav-flex{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
 }
 ul{
     display: flex;
