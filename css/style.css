@@ -14,7 +14,6 @@ body {
 }
 
 /* main styles */
-
 /* Nav-Section */
 nav {
     display: flex;
@@ -60,13 +59,78 @@ section {
     width: 80%;
     height: 60vh;
     margin: 0 auto;
+    color: white;
     background-color: rgb(61, 162, 202);
     font-size: 1.3rem;
     border-top-right-radius: 0.3em;
     border-top-left-radius: 0.3em;
     border-bottom-right-radius: 1em;
 }
-
+input {
+    margin-bottom: 1em;
+    background-color: aliceblue;
+    padding: 0.2em 0.5em;
+    border-bottom-right-radius: 0.4em;
+    width: 22%;
+    height: 5%;
+}
+.question{
+    margin-top: 0.5em;
+}
+.options{
+    Display: flex;
+    color: bisque;
+    align-items: center;
+    justify-content: flex-start;
+}
+.options label{
+    margin-right: 1em;
+}
+#quiz-section input{
+    margin-bottom: 0;
+    background-color: blue;
+    height:unset;
+    width: unset;
+}
+button{
+    width: 17%;
+    height: 10%;
+    padding: 0;
+    font-size: 1.1rem;
+    border-bottom-right-radius: 0.5em;
+}
+#quiz-section button{
+    width: 17%;
+    height: 8%;
+    padding: 0;
+    font-size: 1.1rem;
+    border-bottom-right-radius: 0.5em;
+}
+button:hover{
+    background-color: #7ac6e0;
+}
+.hypo-section button:hover{
+    background-color: #daf289;
+}
+#output-Div{
+    background-color: #56b0db;
+    margin: 1em auto;
+    color: currentcolor;
+    border: none;
+    padding: 0.4em;
+}
+.hypo-section #output-Div{
+    background-color: #bed76b;
+}
+.area-section #output-Div{
+    background-color: #ac47e5;
+}
+#quiz-section button:hover{
+    background-color: #7aefc2;
+}
+#quiz-section #output-Div{
+    background-color: #15a46c;
+}
 /* ..............  */
 /* Page Colors */
 #quiz-body {
@@ -74,7 +138,19 @@ section {
 }
 
 #quiz-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 77vh;
+    margin: 0 auto;
+    color: white;
     background-color: rgb(61 202 147);
+    font-size: 1.3rem;
+    border-top-right-radius: 0.3em;
+    border-top-left-radius: 0.3em;
+    border-bottom-right-radius: 1em;  
 }
 
 #hypo-body {
@@ -83,6 +159,7 @@ section {
 
 .hypo-section {
     background-color: rgb(178 213 58);
+    color: #19162a;
 }
 
 #area-body {
@@ -94,9 +171,6 @@ section {
 }
 
 /* .................. */
-#output-Div {
-    background-color: blue;
-}
 
 footer {
     display: flex;
