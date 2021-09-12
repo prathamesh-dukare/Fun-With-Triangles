@@ -11,6 +11,7 @@ a {
 
 body {
     background-color: rgb(136, 181, 199);
+    font-family: system-ui;
 }
 
 /* main styles */
@@ -197,4 +198,21 @@ footer {
 
 .footer-flex li a svg {
     width: 1.2rem;
+}
+
+/* @media queries  */
+@media screen and (max-width:1350px){
+    .nav-flex {
+        width: 30%;
+    }
+}
+@media screen and (max-width:1000px){
+    .nav-flex {
+        width: 40%;
+    }
+}
+@media screen and (max-width:830px){
+    .nav-flex {
+        width: 50%;
+    }
 }
